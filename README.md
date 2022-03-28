@@ -12,4 +12,4 @@ It then forms a dataset (number -> frequency -> percentage) which is displayed i
 The process is also timed in case you are using this for testing system speeds (ex. time /1000 rolls)
 
 # Note
-This code can be optimised far more but I wanted it to look clean so that beginners can still understand what's happening
+This code can be optimised far more but I wanted it to look clean so that beginners can still understand it
