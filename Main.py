@@ -4,7 +4,7 @@ from colorama import Fore
 from os import system as sys
 from random import choice as CHOICE
 
-ROLLS = 100000 # How many times to roll the Dice (higher number = greater accuracy)
+ROLLS = 10000 # How many times to roll the Dice (higher number = greater accuracy)
 
 class DiceAnalysis():
 
@@ -61,7 +61,7 @@ class DiceAnalysis():
         plt.clc()
         plt.plotsize(100, 2 * len(self.posbl) - 1 + 4)
         plt.show()
-
+        input(f'\n[{self.g}+{self.r}] Press any key to exit...')
 
 Analysis = DiceAnalysis()
 Analysis.RollDice()
